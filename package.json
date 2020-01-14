@@ -19,7 +19,7 @@
     "expo-linear-gradient": "~8.0.0",
 
     "react-native-gesture-handler": "~1.5.3",
-    "react-native-svg": "10.0.0"
+    "react-native-svg": "10.1.0"
 
   },
   "devDependencies": {
