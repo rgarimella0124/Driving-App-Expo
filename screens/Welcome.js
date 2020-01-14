@@ -19,8 +19,8 @@ const { width } = Dimensions.get("window");
 
 export default class Welcome extends Component {
   static navigationOptions = {
-    headerTitle: <Text style={theme.fonts.header}>Welcome</Text>,
-    headerRight: (
+    headerTitle: () => <Text style={theme.fonts.header}>Welcome</Text>,
+    headerRight: () => (
       <TouchableOpacity>
         <Block flex={false}>
           <Image

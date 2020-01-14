@@ -11,12 +11,12 @@ import { theme, mocks } from "../constants";
 export default class Rewards extends Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      headerTitle: (
+      headerTitle: () => (
         <Text style={[theme.fonts.header, { paddingLeft: theme.sizes.base }]}>
           Your Rewards
         </Text>
       ),
-      headerLeft: (
+      headerLeft: () => (
         <TouchableOpacity onPress={() => navigation.goBack()}>
           <Image
             resizeMode="contain"

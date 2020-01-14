@@ -34,7 +34,7 @@ const screens = createStackNavigator(
         marginRight: theme.sizes.padding
       }
     },
-    headerLayoutPreset: "left"
+    headerTitleAlign: "left"
   }
 );
 
